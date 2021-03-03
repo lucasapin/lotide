@@ -1,5 +1,13 @@
 const eqArrays = function(firstArr, secondArr) {
-for(var i = 0; i < firstArr.length; i++){
+  if(firstArr.length !== secondArr.length){
+    return false
+  } else {
+    for(var i = 0; i < firstArr.length; i++){
+      if(firstArr[i] !== secondArr[i]){
+    return false
+  } 
+}
+  return true;
 }
 }
 
