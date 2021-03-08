@@ -22,6 +22,7 @@ for(const char of str){
 return letters;
 // You can use for...of loops with strings.
 }
+module.exports = countLetters;
 // console.log(countLetters("my name is lucas"));
 // console.log(countLetters("lighthouse in the house"));
 

@@ -35,11 +35,7 @@ const assertObjectsEqual = function(actual, expected) {
       console.log(`😩😩😩 Assertion Failed: ${actual} !== ${expected}.`);
       } 
 };
-
-const ab = { a: "3", b: "2", c: [1, 2, 3] };
-const ba = { a: "3", b: "2", c: [1, 2, 3] };
-console.log(assertObjectsEqual(ab,ba));
-
+module.exports = assertObjectsEqual;
   
 // assertEqual(eqObjects(ab, ba), true); // => true
 

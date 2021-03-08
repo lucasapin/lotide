@@ -37,8 +37,9 @@ const eqArrays = function(firstArr, secondArr) {
     return results;
   }
   
+  module.exports = letterPositions;
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
 // assertArraysEqual(letterPositions("hello").o, [4]);
 // assertArraysEqual(letterPositions("hello").h, [1]);
 
