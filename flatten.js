@@ -12,8 +12,4 @@ const flatten = function(array) {
   }
   return newArray.sort((a, b) => a - b);
 };
-
-// const arr1 = [[5, 6], 3, [7, 8, 9]];
-// console.log(flatten(arr1));
-
 module.exports = flatten;
