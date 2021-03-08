@@ -9,8 +9,6 @@ const assertEqual = function(actual,expected) {
 
 const findKey = function (obj, callback) {
   for (let key in obj) {
-    // console.log(key)
-    // console.log(obj[key].stars)
     if (callback(obj[key])) {
       return key
     }
@@ -24,8 +22,15 @@ const findKey = function (obj, callback) {
     "elBulli":   { stars: 3 },
     "Ora":       { stars: 2 },
     "Akelarre":  { stars: 3 }
-  }, x => x.stars === 3),"Akaleri")
+  }, x => x.stars === 3), "Akaleri")
   
+
+
+
+  
+  
+
+
 
 
 
