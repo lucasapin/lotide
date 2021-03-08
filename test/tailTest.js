@@ -1,12 +1,8 @@
-const assertEqual = require("../assertEqual");
+const assert = require('chai').assert;
 const tail = require("../tail");
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3); // original array should still have 3 elements!
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result.length, 2); // ensure we get back two elements
-assertEqual(result[0], "Lighthouse"); // ensure first element is "Lighthouse"
-assertEqual(result[1], "Labs"); // ensure second element is "Labs"
-const result1 = tail([]);
-console.log(result1);
+describe("slices the first index of an array and return a new array with the rest", () => {
+  it("returns 2 for [Hello, Lighthouse, Labs].length", () => {
+    assert.strictEqual(tail(["Hello", "Lighthouse", "Labs"]).length, 2);
+  });
+});
