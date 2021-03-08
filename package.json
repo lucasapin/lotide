@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@lucasapin/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library created for educational purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/lucasapin/lotide.git"
   },
-  "author": "",
+  "author": "Lucas Pinheiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucasapin/lotide/issues"
